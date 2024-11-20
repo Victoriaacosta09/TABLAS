@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table, th, td  {
+    border:1px solid black;
+    border-collapse: collapse;
+    
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table
+        <tr><th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad
+
+            </th>
+            <tr><td>Jose</td>
+                <td>Pérez</td>
+                <td>50</td>
+            </tr>
+            <tr><td>Victoria</td>
+                <td>Acosta</td>
+                <td>28</td></tr>
+    </table>
+    <h1>Caption y RowSpan</h1>
+    <table>
+        <caption>Teléfonos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th colspan=""
+            <th>Teléfono</th>
+        </tr>
+        <th>Bill Gates</th>
+        <th>666555444</th>
+        <th>999555444</th>
+    </table>
+    <h1>RowSpan</h1>
+    <table>
+        <tr>
+            <th>Nombre:</th>
+            <td>Juan</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Teléfono</th>
+            <td>556677837</td>
+            <tr>
+                <td>554562345</td>
+            </tr>
+        </tr>
+    </table>
+    <h1>Propiedades por Columnas</h1>
+    <table>
+        <colgroup>
+            <col style="background-color: red;">
+            <col style="background-color: greenyellow;">
+            <col style="background-color: blueviolet;">
+        </colgroup>
+        <tr>
+            <th>ISBIN</th>
+            <th>Título</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>6316515156</td>
+            <td>Empezando HTML</td>
+            <td>20E</td>
+        </tr>
+        <tr>
+            <td>1665131651</td>
+            <td>Intro CSS</td>
+            <td>50E</td>
+        </tr>
+    </table>
+</body>
+</html>
